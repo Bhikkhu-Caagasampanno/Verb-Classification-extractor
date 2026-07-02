@@ -1,2 +1,6 @@
 # Verb-Classification-extractor
-A small python script that extracts the verbs from the Digital Pali Dictionary's database release and classifies them based on gender and ending. 
+Classifies Pali verbs based on gender and ending, use with the Digital Pali Dictionary's dpd.db release
+
+usage: python3 dpd-verb-classifier.py /path/to/dpd.db
+
+outputs a list of verbs with the classification in both csv and json format
